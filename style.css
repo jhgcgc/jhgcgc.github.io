@@ -1,0 +1,90 @@
+body{
+ background-color:yellow;
+
+}
+.titulo{
+text-align: center;
+color:black;
+
+}
+.calculadora{
+background-color: gray;
+width: 250px;
+height: 450px;
+margin: auto;
+border-radius: 10px;
+border: solid;
+color: black;
+
+}
+.painel{
+margin: auto;
+width:230px ;
+height:40px;
+background-color: white;
+
+
+}
+.botao{
+background-color:black;
+width: 55px;
+height:45px;
+padding-left: 10px;
+color: white;
+cursor: pointer;
+margin:2px;
+box-shadow: 3px 3px 0px darkgrey;
+
+}
+.botao:hover{/*para quando passar o mouse no botao  ele irar mudar de cor*/
+background-color:grey
+
+}
+.linha{
+display: flex;
+justify-content: center;
+padding-left: 3px;
+
+}
+.linha2{
+  display: flex;
+  justify-content: right;
+  
+padding-left: 3px;
+  
+
+}
+.linha3{
+  display: flex;
+  justify-content: right;
+  line-height: 50px;
+padding-left: 3px;
+  
+
+}
+.painel{
+
+border-style: solid;
+color: black;
+border-radius: 10px;
+text-align: right;
+
+line-height: 15px;
+
+}
+.gil{
+  text-align: center;
+
+
+}
+div#res{
+
+    font-size: 30px;
+    padding-right: 7px;
+    
+}
+
+
+
+
+
